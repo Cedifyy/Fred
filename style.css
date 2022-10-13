@@ -1,0 +1,54 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 130px;
+  background-color: #01162e;
+  position: fixed;
+  height: 100vh;
+  overflow: auto;
+}
+.nav1 {
+  display: block;
+  color: rgb(255, 255, 255);
+  padding: 8px 16px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+.nav1.active {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+}
+.nav1:hover:not(.active) {
+  background-color: #555;
+  color: rgb(255, 255, 255);
+}
+.navL{
+  width: 130px;
+  height: 130px;
+}
+body {
+  width: 1260px;
+  height: 975px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/402028/pexels-photo-402028.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-position: center;
+  background-repeat: no-repeat ;
+  background-size: cover;
+  margin: 0;
+  color: white;
+}
+.header {
+  font-family: "Qwitcher Grypen", cursive;
+  font-size: 200px;
+  padding-left: 100px;
+  text-shadow: 2px 5px black;
+}
+.c1 {
+  width: 500px;
+  height: 300px;
+}
